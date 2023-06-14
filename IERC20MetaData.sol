@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-import "https://gist.github.com/4aabd84435d5b36d38ba17e18663dd78.git";
+import "https://raw.githubusercontent.com/Patrickutt92/Base/main/IERC20.sol";
 
 /**
  * @dev Interface for the optional metadata functions from the ERC20 standard.
