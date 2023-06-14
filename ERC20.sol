@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-import "https://gist.github.com/4aabd84435d5b36d38ba17e18663dd78.git";
-import "https://gist.github.com/b1981afa5baa4ba47279fc941758a5be.git";
-import "https://gist.github.com/c62b27cc234f134900eca002f044d281.git";
-import "https://gist.github.com/5a8a58947f5ab5f59c70f5316c4302af.git";
+import "https://raw.githubusercontent.com/Patrickutt92/Base/main/IERC20.sol";
+import "https://raw.githubusercontent.com/Patrickutt92/Base/main/IERC20MetaData.sol";
+import "https://raw.githubusercontent.com/Patrickutt92/Base/main/Context.sol";
+import "https://raw.githubusercontent.com/Patrickutt92/Base/main/SafeMath.sol";
 
 contract ERC20 is Context, IERC20, IERC20Metadata {
     using SafeMath for uint256;
