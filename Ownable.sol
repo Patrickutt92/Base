@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-import "https://gist.github.com/c62b27cc234f134900eca002f044d281.git";
+import "https://raw.githubusercontent.com/Patrickutt92/Base/main/Context.sol";
 
 /**
  * @dev Contract module which provides a basic access control mechanism, where
